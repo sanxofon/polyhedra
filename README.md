@@ -1,6 +1,6 @@
 # Making polyhedra
 
-[Demo here](https://sanxofon.github.io/polytope-morpher)
+[Demo here](https://sanxofon.github.io/polyhedra)
 
 ## Credits
 
