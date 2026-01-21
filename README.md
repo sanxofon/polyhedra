@@ -13,8 +13,6 @@ Adapted by
 
 ## This fork info
 
-Forked from [IMAGINARY gGmbH](http://www.imaginary.org) [Cindyjs-apps repo](https://github.com/IMAGINARY/cindyjs-apps)
-
 Minor modifications for standalone uk/en version by
 [Santiago Chávez Novaro](mailto:sanxofon@gmail.com)
 
