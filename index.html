@@ -1,148 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="width: 100%; height: 100%;">
 <head>
   <meta charset="UTF-8">
-  <title>CindyJS Apps</title>
+  <meta name="viewport" content="width=device-width">
+  <title>Polyeder basteln</title>
+  <script type="text/javascript" src="./viewer/cindy-viewer.js"></script>
+  <style>
+    /* Language Switch Hack: English / Українська */
+    #switch-lang {
+      color: #666;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 5;
+      cursor: pointer;
+      padding: 5px 10px;
+      font-family: inherit;
+    }
+    #switch-lang:hover {
+      color: #fff;
+    }
+  </style>
 </head>
-<body>
-<h1>CindyJS Apps</h1>
-<h2>Classic Apps</h2>
-<ul>
-  <li><a href="ausparken/index.html">ausparken</a>
-    (<a href="ausparken/index.html?lang=de">de</a>)
-    (<a href="ausparken/index.html?lang=es">es</a>)
-    (<a href="ausparken/index.html?lang=it">it</a>)
-    (<a href="ausparken/index.html?lang=ru">ru</a>)
-    (<a href="ausparken/index.html?lang=ro">ro</a>)
-    (<a href="ausparken/index.html?lang=zh">zh</a>)
-  </li>
-  <li><a href="doppelpendel/index.html">doppelpendel</a>
-    (<a href="doppelpendel/index.html?lang=de">de</a>)
-    (<a href="doppelpendel/index.html?lang=es">es</a>)
-    (<a href="doppelpendel/index.html?lang=it">it</a>)
-    (<a href="doppelpendel/index.html?lang=ru">ru</a>)
-    (<a href="doppelpendel/index.html?lang=ro">ro</a>)
-    (<a href="doppelpendel/index.html?lang=zh">zh</a>)
-  </li>
-  <li><a href="fish/index.html">fish</a>
-    (<a href="fish/index.html?lang=de">de</a>)
-    (<a href="fish/index.html?lang=es">es</a>)
-    (<a href="fish/index.html?lang=it">it</a>)
-    (<a href="fish/index.html?lang=ru">ru</a>)
-    (<a href="fish/index.html?lang=ro">ro</a>)
-    (<a href="fish/index.html?lang=zh">zh</a>)
-  </li>
-  <li><a href="image-spiral/index.html">image-spiral</a></li>
-  <li><a href="iornament/index.html">iornament</a></li>
-  <li><a href="kaleidoskop/index.html">kaleidoskop</a></li>
-  <li><a href="platonic-solids/index.html">platonic-solids</a>
-    (<a href="platonic-solids/index.html?lang=de">de</a>)
-    (<a href="platonic-solids/index.html?lang=es">es</a>)
-    (<a href="platonic-solids/index.html?lang=it">it</a>)
-    (<a href="platonic-solids/index.html?lang=ru">ru</a>)
-    (<a href="platonic-solids/index.html?lang=ro">ro</a>)
-    (<a href="platonic-solids/index.html?lang=zh">zh</a>)
-  </li>
-  <li><a href="polytope-morpher/index.html">polytope-morpher</a>
-    (<a href="polytope-morpher/index.html?lang=de">de</a>)
-    (<a href="polytope-morpher/index.html?lang=es">es</a>)
-    (<a href="polytope-morpher/index.html?lang=it">it</a>)
-    (<a href="polytope-morpher/index.html?lang=ru">ru</a>)
-    (<a href="polytope-morpher/index.html?lang=ro">ro</a>)
-    (<a href="polytope-morpher/index.html?lang=zh">zh</a>)
-  </li>
-  <li><a href="solitaire/index.html">solitaire</a>
-    (<a href="solitaire/index.html?lang=de">de</a>)
-    (<a href="solitaire/index.html?lang=es">es</a>)
-    (<a href="solitaire/index.html?lang=it">it</a>)
-    (<a href="solitaire/index.html?lang=ru">ru</a>)
-    (<a href="solitaire/index.html?lang=ro">ro</a>)
-    (<a href="solitaire/index.html?lang=zh">zh</a>)
-  </li>
-  <li><a href="sphere-chaos/index.html">sphere-chaos</a></li>
-  <li><a href="sphere-chaos-c/index.html">sphere-chaos-c</a></li>
-  <li><a href="tree/index.html">tree</a></li>
-  <li><a href="info/app.html">credits</a></li>
-</ul>
-<h2>Music Apps</h2>
-<ul>
-  <li><a href="euclidian-rhythm/index.html">euclidian-rhythm</a>
-    (<a href="euclidian-rhythm/index.html?lang=de">de</a>)
-    (<a href="euclidian-rhythm/index.html?lang=es">es</a>)
-    (<a href="euclidian-rhythm/index.html?lang=it">it</a>)
-    (<a href="euclidian-rhythm/index.html?lang=ru">ru</a>)
-    (<a href="euclidian-rhythm/index.html?lang=ro">ro</a>)</li>
-  <li><a href="mozart-dice/index.html">mozart-dice</a>
-    (<a href="mozart-dice/index.html?lang=de">de</a>)
-    (<a href="mozart-dice/index.html?lang=es">es</a>)
-    (<a href="mozart-dice/index.html?lang=it">it</a>)
-    (<a href="mozart-dice/index.html?lang=ru">ru</a>)
-    (<a href="mozart-dice/index.html?lang=ro">ro</a>)</li>
-  <li><a href="pachelbel-canon/index.html">pachelbel-canon</a>
-    (<a href="pachelbel-canon/index.html?lang=de">de</a>)
-    (<a href="pachelbel-canon/index.html?lang=es">es</a>)
-    (<a href="pachelbel-canon/index.html?lang=it">it</a>)
-    (<a href="pachelbel-canon/index.html?lang=ru">ru</a>)
-    (<a href="pachelbel-canon/index.html?lang=ro">ro</a>)</li>
-  <li><a href="sequenzer/index.html">sequenzer</a>
-    (<a href="sequenzer/index.html?lang=de">de</a>)
-    (<a href="sequenzer/index.html?lang=es">es</a>)
-    (<a href="sequenzer/index.html?lang=it">it</a>)
-    (<a href="sequenzer/index.html?lang=ru">ru</a>)
-    (<a href="sequenzer/index.html?lang=ro">ro</a>)</li>
-  <li><a href="whitney/index.html">whitney</a>
-    (<a href="whitney/index.html?lang=de">de</a>)
-    (<a href="whitney/index.html?lang=es">es</a>)
-    (<a href="whitney/index.html?lang=it">it</a>)
-    (<a href="whitney/index.html?lang=ru">ru</a>)
-    (<a href="whitney/index.html?lang=ro">ro</a>)</li>
-</ul>
-<h2>MiMa Museum Apps</h2>
-<h3>Platonic Solids</h3>
-<ul>
-  <li><a href="psolids-folder/index.html">psolids-folder</a>
-    (<a href="psolids-folder/index.html?lang=de">de</a>)</li>
-  <li><a href="archimedean-solids/index.html">archimedean-solids</a>
-    (<a href="archimedean-solids/index.html?lang=de">de</a>)</li>
-</ul>
-<h3>Crystal structure</h3>
-<ul>
-  <li><a href="crystal-packing/index.html">crystal-packing</a>
-    (<a href="crystal-packing/index.html?lang=de">de</a>)</li>
-  <li><a href="crystal-fractals/index.html">crystal-fractals</a>
-    (<a href="crystal-fractals/index.html?lang=de">de</a>)</li>
-  <li><a href="crystal-intersections/index.html">crystal-intersections</a>
-    (<a href="crystal-intersections/index.html?lang=de">de</a>)
-  </li>
-  <li><a href="crystal-viewer/index.html">crystal-viewer</a>
-    (<a href="crystal-viewer/index.html?lang=de">de</a>)
-  </li>
-</ul>
-<h3>Atomic lattice</h3>
-<ul>
-  <li><a href="sphere-packing/index.html">sphere-packing</a>
-    (<a href="sphere-packing/index.html?lang=de">de</a>)</li>
-  <li><a href="atomic-lattice/index.html">atomic-lattice</a>
-    (<a href="atomic-lattice/index.html?lang=de">de</a>)</li>
-  <li><a href="particles/index.html">particles</a>
-    (<a href="particles/index.html?lang=de">de</a>)</li>
-</ul>
-<h3>4D</h3>
-<ul>
-  <li><a href="4d-cube/index.html">4d-cube</a></li>
-  <li><a href="4d-rotation/index.html">4d-rotation</a>
-    (<a href="4d-rotation/index.html?lang=de">de</a>)</li>
-  </li>
-  <li><a href="slicer-3d/index.html">slicer-3d</a>
-    (<a href="slicer-3d/index.html?lang=de">de</a>)
-  </li>
-  <li><a href="slicer-4d/index.html">slicer-4d</a>
-    (<a href="slicer-4d/index.html?lang=de">de</a>)</li>
-</ul>
-<h3>Structure formation</h3>
-<ul>
-  <li><a href="life/index.html">life</a>
-    (<a href="life/index.html?lang=de">de</a>)</li>
-</ul>
+<body style="background-color: #000; padding: 0; margin: 0; width: 100%; height: 100%;">
+  <!-- Language Switch Hack: English / Українська -->
+  <div id="switch-lang">English</div>
+  <div data-cindy-src="app.html" data-cindy-lang="uk" style="width: 100%; height: 100%;"></div>
+<script>
+// Language Switch Hack: English / Українська
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+// On load: set language from URL param 'lang'
+const langParam = getQueryParam('lang');
+let currLang = "uk";
+if (langParam === 'en' || langParam === 'uk') {
+  currLang = langParam;
+}
+const cindyDiv = document.querySelector('div[data-cindy-src]');
+cindyDiv.setAttribute('data-cindy-lang', currLang);
+const switcher = document.getElementById('switch-lang');
+if (currLang === 'en') {
+  switcher.textContent = 'Українська';
+} else {
+  switcher.textContent = 'English';
+}
+// On click: switch language and reload with URL param 'lang'
+function switchLanguage() {
+  const cindyDiv = document.querySelector('div[data-cindy-src]');
+  if (cindyDiv.getAttribute('data-cindy-lang') === 'uk') {
+    currLang = "en";
+  } else {
+    currLang = "uk";
+  }
+  window.location.href = '?lang=' + currLang;
+}
+document.getElementById('switch-lang').addEventListener('click', switchLanguage);
+</script>
 </body>
 </html>

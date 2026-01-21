@@ -1,0 +1,29 @@
+{
+  "id": "polytope-morpher",
+  "version": "1.4.0",
+  "main": "app.html",
+  "width": 1560,
+  "height": 1170,
+  "name": {
+    "en": "Making polyhedra",
+    "de": "Polyeder basteln",
+    "es": "Fabricación de poliedros",
+    "uk": "Створення багатогранників",
+    "zh": "制作多面体",
+    "ru": "Создание многогранников",
+    "ro": "Crearea de poliedre",
+    "it": "Creazione di poliedri",
+    "pt-br": "Fazendo poliedros"
+  },
+  "description": {
+    "en": "Starting with a Platonic solid, new symmetrical solids can be created by applying three operations. Pressing the magic wand adopts the current object as the new starting point for the deformations.",
+    "de": "Ausgehend von einem platonischen Körper kann man durch das Anwenden von drei Operationen neue symmetrische Körper erzeugen. Ein Druck auf den Zauberstab übernimmt das aktuelle Objekt als neuen Ausgangspunkt für die Verformungen.",
+    "es": "Partiendo de un sólido platónico, se pueden crear nuevos sólidos simétricos aplicando tres operaciones. Al presionar la varita mágica, el objeto actual se convierte en el nuevo punto de partida para las deformaciones.",
+    "uk": "Починаючи з платонового тіла, нові симетричні тіла можна створити, застосувавши три операції. Натискання чарівної палички приймає поточний об'єкт як нову початкову точку для деформацій.",
+    "zh": "从柏拉图立体出发，通过三个操作即可创建新的对称立体。点击魔棒图标会将当前对象作为变形的新起点。",
+    "ru": "Начиная с платонового тела, можно создать новые симметричные тела, применив три операции. Нажатие на волшебную палочку заменяет текущий объект новой отправной точкой для деформаций.",
+    "ro": "Începând cu un solid platonic, se pot crea noi solide simetrice prin aplicarea a trei operații. Apăsarea baghetei magice adoptă obiectul curent ca nou punct de plecare pentru deformări.",
+    "it": "Partendo da un solido platonico, è possibile creare nuovi solidi simmetrici applicando tre operazioni. Premendo la bacchetta magica si adotta l'oggetto corrente come nuovo punto di partenza per le deformazioni.",
+    "pt-br": "Partindo de um sólido platônico, novos sólidos simétricos podem ser criados aplicando três operações. Pressionar a varinha mágica adota o objeto atual como o novo ponto de partida para as deformações."
+  }
+}
