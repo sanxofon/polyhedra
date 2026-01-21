@@ -13,8 +13,7 @@ Adapted by
 
 ## This fork info
 
-Minor modifications for standalone uk/en version by
-[Santiago Chávez Novaro](mailto:sanxofon@gmail.com)
+Reduce, repack and minor modifications for standalone uk/en version
 
 ### Changes made
 
