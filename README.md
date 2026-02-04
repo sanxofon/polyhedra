@@ -17,16 +17,11 @@ Reduce, repack and minor modifications for standalone uk/en version
 
 ### Changes made
 
-- Language switch hack to allow fast switching from *English* to *Ukrainian*.
 - CSS, HTML and JS are hardcoded on `index.html` without no changes to app itself (all can be moved to `app.html` if needed)
 - All dependencies, including `cindy-viwewer-js` were moved inside app folder (some unused items were omitted).
 - Simple translations were added on `app.json`
 - Ukrainian translation added to `tr/uk.json`
 - Default language is now `uk`.
-
-### ToDo
-
-- Replace *English/Українська* words with language switch icon.
 
 ## License
 
