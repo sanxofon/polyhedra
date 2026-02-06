@@ -11,6 +11,9 @@ Jürgen Richter-Gebert
 Adapted by
 [Eric Londaits](mailto:eric.londaits@imaginary.org) for [IMAGINARY gGmbH](http://www.imaginary.org)
 
+Small modifications and cleaning of this fork
+[Santiago Chávez](https://github.com/sanxofon)
+
 ## This fork info
 
 Reduce, repack and minor modifications for standalone uk/en version
@@ -21,10 +24,8 @@ Reduce, repack and minor modifications for standalone uk/en version
 - All dependencies, including `cindy-viwewer-js` were moved inside app folder (some unused items were omitted).
 - Simple translations were added on `app.json`
 - Ukrainian translation added to `tr/uk.json`
-- Default language is now `uk`.
+- Default language is now `uk`. Language switch was removed.
 
 ## License
 
 Licensed under the Apache 2 license.
-
-Copyright 2013-2017 Jürgen Richter-Gebert
